@@ -2,6 +2,8 @@
 This RoomOS Macro bridges the gap with Cisco Spaces 3D rich map being unable to set the outside panel to BLUE when someone places the room on hold:<br>
 
   <img width="1021" height="627" alt="image" src="https://github.com/user-attachments/assets/6d41ec01-588c-439b-9c8b-0e7c6dad5239" />
+<br>
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f0e53a56-47dd-4ad6-8d93-254a6c78e4a2" />
 
 The outside panel without this macro will display GREEN otherwise when no one is present in the room or the device is not considered in-use. 
 
