@@ -12,5 +12,5 @@ Version 3: Uses Cloud xAPI and self-discovers the outside panel and send xapi us
 
 Note: The REVERT_ON_IN_USE = true/false switch in v2 and v3 of the macro can be used to match the duration of the LED's Blue color with what is shown on the 3D Map if set to false. Setting it to "true" (default) will change the color of the room back to RED if the macro determines the device is being used (call, presentation, peoplepresence, etc).
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/42acf440-8800-49ad-8828-996fc91ec5b8" />
+<img width="796" height="1024" alt="image" src="https://github.com/user-attachments/assets/405f7a11-03ff-40f4-a907-b1dc473e1453" />
 </p>
