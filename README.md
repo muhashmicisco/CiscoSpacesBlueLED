@@ -5,7 +5,7 @@ This RoomOS Macro bridges the gap with Cisco Spaces 3D rich map being unable to 
 <br>
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f0e53a56-47dd-4ad6-8d93-254a6c78e4a2" />
 
-The outside panel without this macro will display GREEN otherwise when no one is present in the room or the device is not considered in-use. 
+The outside panel without this macro will otherwise display a GREEN LED when no one is present in the room or the device is not considered in-use. 
 
 There are 3 versions of the Macro, which must be deployed on the inside room Cisco Device, for v1 the device is network paired, for v2 and v3 the outside panel is cloud registered and added to the same Workspace:<br>
 Verison 1: Uses local credentials on the Outside Touch Panel and sends xapi to change the LED via FQDN/IP Address.<br>
