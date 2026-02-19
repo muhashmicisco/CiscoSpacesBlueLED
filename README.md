@@ -9,5 +9,7 @@ There are 3 versions of the Macro:
 Verison 1: Uses local credentials on the Outside Touch Panel and sends xapi to change the LED via FQDN/IP Address.
 Version 2: Uses Cloud xAPI and self-discovers the outside panel and send xapi using a Bearer token (good for testing).
 Version 3: Uses Cloud xAPI and self-discovers the outside panel and send xapi using a Webex Service App (good for mass deployment).
-  
+
+Note: The REVERT_ON_IN_USE = true/false switch can be used to display the LED to match the duration the Blue color shown on the 3D Map OR to change the color of the room back to RED if the macro determines the device is being used (call, presentation, peoplepresence, etc).
+
 </p>
