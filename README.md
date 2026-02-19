@@ -12,9 +12,9 @@ Verison 1: Uses local credentials on the Outside Touch Panel and sends xapi to c
 Version 2: Uses Cloud xAPI and self-discovers the outside panel and send xapi using a Bearer token (good for testing).<br>
 Version 3: Uses Cloud xAPI and self-discovers the outside panel and send xapi using a Webex Service App (good for mass deployment).<br>
 
-Note: The REVERT_ON_IN_USE = true/false switch in v2 and v3 of the macro.
+Note: The REVERT_ON_IN_USE = true/false switch in v2 and v3 of the macro.<br>
 If True, uses the in-use status to switch the LED back to RED (call, presentation, peoplepresence, etc). This is the default setting.<br>
-If False, the LED will remain Blue for 3 mins regardless of what the device is doing.
+If False, the LED will remain Blue for 3 mins regardless of what the device is doing.<br><br>
 This maybe useful to workaround a gap in the Explorer map where the color will only turn Red if a person is detected (via Camera or Ultrasound) and not if a call is placed. The BU has commited to switching to the in-use xstatus in the future.
 
 <img alt="image" src="https://github.com/user-attachments/assets/3e8fedbc-4f01-4a1f-b3e8-f00c04bc5d87" />
